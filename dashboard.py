@@ -37,7 +37,7 @@ st.markdown(
 # svm_tfidf_model.pkl
 
 model_svm = joblib.load(
-    "C:\\Penyimpanan Utama\\Documents\\UPN\\Magang\\Project BKKBN HUMAS\\Dataset All\\Project Media Sosial\\svm_tfidf_model.pkl"
+    "svm_tfidf_model.pkl"
 )
 
 
@@ -396,3 +396,4 @@ if uploaded is not None:
                 st.success(f"Sentimen komentar: **{pred.upper()}**")
 else:
     st.info("Silakan upload dataset CSV untuk memulai analisis.")
+
